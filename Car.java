@@ -21,7 +21,8 @@ public class Car {
 
     public void print()
     {
-        System.out.println("brandname : " + brandname + " " + "color : " + color + " " + "model : " + model + " " + "price : " + price + " " + "enginetype : " + enginetype + " " + "seatingcapacity : " + seatingcapacity + " " + "geartype : " + geartype);
+        System.out.println("brandname : " + brandname + " " + "\ncolor : " + color + " " + "\nmodel : " + model + " " + "\nprice : " + price + "Cr " + "\nenginetype : " + enginetype + " " + "\nseatingcapacity : " + seatingcapacity + " " + "\ngeartype : " + geartype);
+        System.out.println("----------------------------------------------------------------");
     }
     public static void main(String[] args) {
         Car c1 = new Car("BMW", "Black", "M2", 1.84, "3.0L Inline-6 Turbo Petrol", 5, "8-Speed Automatic");
