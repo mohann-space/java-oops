@@ -10,8 +10,15 @@ This repositiory contains my Java Object-Oriented Programming (OOP) practice as 
 - Constructors
   - Default Constructor
   - Parameterized Constructor
-- Basic OOP Programs
+  - Constructor Overloading
+  - Constructor Chaining (`this()`)
 - this. keyword
+- Enacpsulation
+- Inheritance
+  - Single Inheritance
+  - Multilevel Inheritance
+  - Hierarchical Inheritance
+- Basic OOP Programs
 
 ## Repository Contents
 
