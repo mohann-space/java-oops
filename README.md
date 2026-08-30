@@ -18,6 +18,23 @@ This repositiory contains my Java Object-Oriented Programming (OOP) practice as 
   - Single Inheritance
   - Multilevel Inheritance
   - Hierarchical Inheritance
+  - Multiple Inheritance using Interfaces
+  - Hybrid Inheritance using Interfaces
+- Polymorphism
+  - Compile-Time Polymorphism
+  - Runtime Polymorphism
+- UpCasting
+- Downcasting
+- `instanceof` Operator
+- Abstraction
+  - Abstract Classes
+  - Abstraction Levels
+- Interfaces
+  - Single Inheritance
+  - Multilevel Inheritance
+  - Hierarchical Inheritance
+  - Multiple Inheritance 
+  - Hybrid Inheritance 
 - Basic OOP Programs
 
 ## Repository Contents
