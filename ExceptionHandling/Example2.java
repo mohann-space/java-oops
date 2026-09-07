@@ -1,8 +1,7 @@
 package ExceptionHandling;
-
+// Limited chances
 import java.util.Scanner;
-
-public class Example {
+public class Example2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Main Starts...");
@@ -10,6 +9,7 @@ public class Example {
         int a = sc.nextInt();
         System.out.println("Enter the Denominator");
         int b = sc.nextInt();
+        int chance = 5;
         while (true) {
             try
             {
@@ -19,6 +19,12 @@ public class Example {
             }
             catch(ArithmeticException e)
             {
+                // Limited chances
+                chance--;
+                if (chance==0) {
+                    System.out.println("User Blocked!");
+                    break;
+                }
                 System.out.println("Re-enter the Denominator Value");
                 b = sc.nextInt();
             }
